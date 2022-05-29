@@ -5,11 +5,11 @@ const getWeb3 = () =>
     // Wait for loading completion to avoid race conditions with web3 injection timing.
     window.addEventListener("load", async () => {
       // Modern dapp browsers...
-      if (window.ethereum) {
-        const web3 = new Web3(window.ethereum);
+      if (window.qtum) {
+        const web3 = new Web3(window.qtum);
         try {
           // Request account access if needed
-          await window.ethereum.enable();
+          await window.qtum.enable();
           // Accounts now exposed
           resolve(web3);
         } catch (error) {

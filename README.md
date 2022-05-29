@@ -4,17 +4,19 @@ This box comes with everything you need to start using smart contracts from a re
 
 ## Installation
 
-First ensure you are in a new and empty directory.
+First install [Qnekt](https://github.com/earlgreytech/metamask-extension/releases) and [Janus](https://github.com/qtumproject/janus#installation)
+
+Then ensure you are in a new and empty directory.
 
 1. Run the `unbox` command via `npx` and skip to step 3. This will install all necessary dependencies. A Create-React-App is generated in the `client` directory.
    ```js
-   npx truffle unbox react
+   npx truffle unbox qtumproject/react-box
    ```
 
 2. Alternatively, you can install Truffle globally and run the `unbox` command.
     ```javascript
     npm install -g truffle
-    truffle unbox react
+    truffle unbox qtumproject/react-box
     ```
 
 3. Run the development console.

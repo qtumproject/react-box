@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@qtumproject/hdwallet-provider": "^2.0.8-alpha",
+    "qtum-ethers-wrapper": "^1.1.0"
+  }
+}
